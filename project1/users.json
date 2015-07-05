@@ -1,0 +1,11 @@
+[{
+	id: 1,
+	username: 'Smith',
+	email: 'smith@matrix.com',
+	passwd: '~!@#$%^&*()_+/*-+'
+},{
+	id: 2,
+	username: 'Jason',
+	email: 'jason@halloween.com',
+	passwd: '-*/+_)(*&^%$#@~)'
+}]
