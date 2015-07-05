@@ -1,0 +1,25 @@
+-- Local --
+git clone
+git status
+git branch
+git branch 'existing local branch to change to'
+git branch 'new local branch to change to'
+git checkout 'local branch name'
+git add
+git commit -m 'description'
+git merge 'local branch to merge staging branch with'
+
+-- Remote --
+git remote -v
+git remote show origin :: defaults to whatever url the initial clone command was given
+git push -u origin 'remote branch name'
+    -- -u sets the staging branch to merge with the remote specified branch or creates a new remote branch
+    -- origin sets the new/existing remote branch to merge with
+git fetch
+    -- will add changes from all tracked branches. Default tracked branch is master.
+git pull
+    -- merges fetched changes on this branch only. Equal to git fetch + git merge
+git push
+    -- pushes all changes to the corresponding remote branch only. You don't have to be on the branch affected, it will update all branches in sync.
+git push origin 'local branch name'
+    --pushed changes only for the remote branch that corresponds to this local one specified
